@@ -1,10 +1,10 @@
 elasticsearch:
-  host: elasticsearch
+  host: localhost
   port: 9200
 
 spring: 
   rabbitmq:
-    host: rabbitmq
+    host: localhost
     port: 5672
     username: guest
     password: guest

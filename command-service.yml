@@ -3,15 +3,15 @@ spring:
     mongodb:
       authentication-database: admin
       auto-index-creation: true
-      host: mongo
-      port: 27017
+      host: localhost
+      port: 26000
       username: root
       password: root
       database: cqrs
 
   rabbitmq:
     rabbitmq:
-    host: rabbitmq
+    host: localhost
     port: 5672
     username: guest
     password: guest
