@@ -1,0 +1,10 @@
+elasticsearch:
+  host: elasticsearch
+  port: 9200
+
+spring: 
+  rabbitmq:
+    host: rabbitmq
+    port: 5672
+    username: guest
+    password: guest
